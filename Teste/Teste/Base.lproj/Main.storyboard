@@ -2,6 +2,7 @@
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7702" systemVersion="14D136" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7701"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
@@ -76,16 +77,16 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Chak" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FD4-Zt-4ti">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Chak" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FD4-Zt-4ti">
                                 <rect key="frame" x="164" y="82" width="40" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="8562650" translatesAutoresizingMaskIntoConstraints="NO" id="HGB-gt-jt3">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="8562650" translatesAutoresizingMaskIntoConstraints="NO" id="HGB-gt-jt3">
                                 <rect key="frame" x="-23" y="116" width="413" height="274"/>
                             </imageView>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="EZX-mA-Otg">
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="EZX-mA-Otg">
                                 <rect key="frame" x="0.0" y="398" width="375" height="269"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
@@ -94,6 +95,17 @@
                             </textView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="Awx-Va-cV8" firstAttribute="top" secondItem="EZX-mA-Otg" secondAttribute="bottom" id="1db-fc-xqh"/>
+                            <constraint firstItem="EZX-mA-Otg" firstAttribute="leading" secondItem="K1s-Sk-69g" secondAttribute="leadingMargin" constant="-16" id="5s4-BO-F3I"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="EZX-mA-Otg" secondAttribute="trailing" constant="-16" id="MaQ-Fu-Q0r"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="HGB-gt-jt3" secondAttribute="trailing" constant="-31" id="RDD-HW-4WE"/>
+                            <constraint firstItem="HGB-gt-jt3" firstAttribute="top" secondItem="FD4-Zt-4ti" secondAttribute="bottom" constant="13" id="Y8D-OH-Tre"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="FD4-Zt-4ti" secondAttribute="trailing" constant="155" id="hgq-Zd-ZNw"/>
+                            <constraint firstItem="HGB-gt-jt3" firstAttribute="leading" secondItem="K1s-Sk-69g" secondAttribute="leadingMargin" constant="-39" id="u6o-57-Yvu"/>
+                            <constraint firstItem="FD4-Zt-4ti" firstAttribute="leading" secondItem="K1s-Sk-69g" secondAttribute="leadingMargin" constant="148" id="v5Y-0f-sV4"/>
+                            <constraint firstItem="FD4-Zt-4ti" firstAttribute="top" secondItem="HUB-NP-9lN" secondAttribute="bottom" constant="62" id="wO6-0S-cIq"/>
+                        </constraints>
                     </view>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
                 </viewController>
@@ -105,5 +117,6 @@
     <resources>
         <image name="8562650" width="1280" height="800"/>
         <image name="homeImage" width="998" height="1600"/>
+        <image name="obstacle.png" width="1105" height="1501"/>
     </resources>
 </document>
