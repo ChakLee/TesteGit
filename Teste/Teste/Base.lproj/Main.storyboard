@@ -22,8 +22,8 @@
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Person.png" translatesAutoresizingMaskIntoConstraints="NO" id="Rbm-cS-4cB">
-                                <rect key="frame" x="138" y="137" width="98" height="89"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="obstacle.png" translatesAutoresizingMaskIntoConstraints="NO" id="Rbm-cS-4cB">
+                                <rect key="frame" x="138" y="137" width="98" height="139"/>
                             </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
@@ -93,6 +93,7 @@
         </scene>
     </scenes>
     <resources>
-        <image name="Person.png" width="48" height="48"/>
+        <image name="homeImage" width="998" height="1600"/>
+        <image name="obstacle.png" width="1105" height="1501"/>
     </resources>
 </document>

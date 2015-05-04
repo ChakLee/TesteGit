@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		333C2BAB1AF8008E004378C9 /* Person.png in Resources */ = {isa = PBXBuildFile; fileRef = 333C2BAA1AF8008E004378C9 /* Person.png */; };
+		333C2BAD1AF80180004378C9 /* obstacle.png in Resources */ = {isa = PBXBuildFile; fileRef = 333C2BAC1AF80180004378C9 /* obstacle.png */; };
 		E71330B41AF7FCD400737FB7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E71330B31AF7FCD400737FB7 /* main.m */; };
 		E71330B71AF7FCD400737FB7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E71330B61AF7FCD400737FB7 /* AppDelegate.m */; };
 		E71330BA1AF7FCD400737FB7 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E71330B91AF7FCD400737FB7 /* ViewController.m */; };
@@ -28,7 +28,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		333C2BAA1AF8008E004378C9 /* Person.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Person.png; sourceTree = "<group>"; };
+		333C2BAC1AF80180004378C9 /* obstacle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = obstacle.png; sourceTree = "<group>"; };
 		E71330AE1AF7FCD400737FB7 /* Teste.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Teste.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E71330B21AF7FCD400737FB7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E71330B31AF7FCD400737FB7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -90,7 +90,7 @@
 				E71330BB1AF7FCD400737FB7 /* Main.storyboard */,
 				E71330BE1AF7FCD400737FB7 /* Images.xcassets */,
 				E71330C01AF7FCD400737FB7 /* LaunchScreen.xib */,
-				333C2BAA1AF8008E004378C9 /* Person.png */,
+				333C2BAC1AF80180004378C9 /* obstacle.png */,
 				E71330B11AF7FCD400737FB7 /* Supporting Files */,
 			);
 			path = Teste;
@@ -202,7 +202,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				333C2BAB1AF8008E004378C9 /* Person.png in Resources */,
+				333C2BAD1AF80180004378C9 /* obstacle.png in Resources */,
 				E71330BD1AF7FCD400737FB7 /* Main.storyboard in Resources */,
 				E71330C21AF7FCD400737FB7 /* LaunchScreen.xib in Resources */,
 				E71330BF1AF7FCD400737FB7 /* Images.xcassets in Resources */,
