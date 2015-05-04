@@ -26,15 +26,6 @@
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="obstacle.png" translatesAutoresizingMaskIntoConstraints="NO" id="Rbm-cS-4cB">
                                 <rect key="frame" x="21" y="20" width="167" height="222"/>
                             </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="L3J-RU-fCL">
-                                <rect key="frame" x="274" y="416" width="46" height="30"/>
-                                <state key="normal" title="Button">
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                                <connections>
-                                    <segue destination="bmK-1Q-K8r" kind="show" id="0Bt-hJ-9tv"/>
-                                </connections>
-                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
@@ -66,7 +57,8 @@
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8ja-ej-Nbh">
                                 <rect key="frame" x="231" y="447" width="46" height="30"/>
                                 <state key="normal" title="Button">
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    <color key="titleShadowColor" red="1" green="0.0" blue="0.50196081399917603" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
                                 <connections>
                                     <segue destination="9LK-CY-5JM" kind="show" id="KBo-ih-8dg"/>
@@ -156,6 +148,7 @@
     </scenes>
     <resources>
         <image name="8562650" width="1280" height="800"/>
+        <image name="homeImage" width="998" height="1600"/>
         <image name="obstacle.png" width="1105" height="1501"/>
     </resources>
 </document>
