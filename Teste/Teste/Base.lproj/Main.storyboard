@@ -101,5 +101,6 @@
     </scenes>
     <resources>
         <image name="8562650" width="1280" height="800"/>
+        <image name="homeImage" width="998" height="1600"/>
     </resources>
 </document>
